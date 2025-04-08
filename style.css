@@ -8,8 +8,8 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f8f8f8;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /* Container */
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #e74c3c;
+  color: #352c10;
 }
 
 .hamburger {
@@ -94,8 +94,8 @@ nav {
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(231, 76, 60, 0.8) 0%,
-    rgba(0, 0, 0, 0.8) 100%
+    rgba(249, 183, 28, 0.8) 0%,
+    rgba(143, 84, 226, 0.8) 100%
   );
   opacity: 0.8;
 }
@@ -117,7 +117,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 20px;
-  color: #e74c3c;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -130,7 +130,7 @@ nav {
 }
 
 .hero h1 span {
-  color: #e74c3c;
+  color: #f9b71e;
 }
 
 .hero-description {
@@ -150,8 +150,9 @@ nav {
 
 .btn {
   display: inline-block;
-  background-color: #e74c3c;
-  color: #fff;
+  background-color: transparent;
+  border: #ddd 2px solid;
+  color: #35204c;
   padding: 15px 35px;
   border-radius: 50px;
   text-decoration: none;
@@ -177,6 +178,7 @@ nav {
 }
 
 .btn:hover::before {
+  background-color: #fff;
   left: 0;
 }
 
@@ -256,7 +258,7 @@ nav {
 }
 
 .hero-social a:hover {
-  color: #e74c3c;
+  color: #ffffff;
   transform: scale(1.2);
 }
 
@@ -273,7 +275,7 @@ nav {
 .section-title h2 {
   font-size: 36px;
   margin-bottom: 15px;
-  color: #333;
+  color: #6e3c9a;
 }
 
 .section-title p {
@@ -359,8 +361,9 @@ nav {
 
 .tab-btn.active,
 .tab-btn:hover {
-  background-color: #e74c3c;
-  color: #fff;
+  background-color: transparent;
+  border: #6e3c9a 2px solid;
+  color: #0a0909;
 }
 
 .portfolio-grid {
@@ -389,14 +392,14 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(231, 76, 60, 0.8);
+  background-color: rgba(247, 247, 242, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 0;
   transition: opacity 0.3s;
-  color: #fff;
+  color: #090808;
   text-align: center;
   padding: 20px;
 }
@@ -607,7 +610,7 @@ footer {
 }
 
 .footer-logo span {
-  color: #e74c3c;
+  color: #f4b106;
 }
 
 .footer-text {
